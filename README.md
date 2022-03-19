@@ -222,50 +222,58 @@ Ini adalah sebuah hasil dari texs Kodingan full tag  Membuat CSS Eksternal<p>
  
 
 
-## 5. Menambahkan Hyperlink
-![Menambahkan_Hyperlink](screenshot/Menambahkan_Hyperlink.PNG)
+## 5. Menambahkan CSS Selector
+Selanjutnya saya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file
+style_eksternal.css. Berikut kodingan yang sudah saya buat:<p>
 
-Ini adalah sebuah hasil dari texs Kodingan tag menambahkan hyperlink<p>
- Dan Ini Adalah program codingan dari tag menambahkan hyperlink:
+## Contoh Kode
 
- ```html
+ ```css
+Nav {
+    background: #d35013;
+    color:#fff;
+    padding: 10px;
+    }
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    padding:10px 20px;
+    }
+    nav .active,
+    nav a:hover {
+    background: #ca5c12;
+    }
 
-<!DOCTYPE html >
-<HTMl>
-    <head>
-        <title>Lab1Web__Faris</title>
-    <style>
-body {
-
-    color: red;
-}
-h1 {
-	color: #ff00b3;
-}
-p {
-	color: rgb(36, 85, 177)
-}
-
-    </style>
-    </head>
-    <body>
-	
-	<!-- menambahkan link navigasi -->
-<nav>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Membuat_Judul.html">Membuat judul</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Membuat_Paragraf.html">Membuat Paragraf</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Memformat_teks.html">Memformat teks</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Menyisipkan_Gambar.html">Meyisipkan gambar</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Lab1_Web.html">Halaman Web Eksternal Google</a>
-    </nav>
-    <hr>
-
-
-    </body>
-    
-</HTMl>
+    /* ID Selector */
+#intro {
+    background: #41b15d;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 10px;
+    }
+    #intro h1 {
+    text-align: left;
+    border: 0;
+    color: #fff;
+    }
+    /* Class Selector */
+    .button {
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    }
+    .btn-primary {
+    background: #E42A42;
+    }
 
 ```
+
+![Membuat_css_eksternal](screenshot/Menambahkan_css_selector.PNG)
+
+Ini adalah sebuah hasil dari texs Kodingan full tag  Menambahkan CSS Selector<p>
 
 ## Full Program
 ![Full_Program](screenshot/Full_Program.PNG)
