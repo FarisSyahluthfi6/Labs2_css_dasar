@@ -44,43 +44,72 @@ Ini adalah sebuah hasil dari texs Kodingan tag membuat dokumen HTML<p>
 </html>
 ```
 
-## 2. Membuat Judul
-![Membuat_Judul](screenshot/Membuat_Judul.PNG)
+## 2. Mendeklarasikan CSS Internal
+![Deklarasi_css_internal](screenshot/Deklarasi_css_internall.PNG)
 
-Ini adalah sebuah hasil dari texs Kodingan tag membuat judul<p>
- Dan Ini Adalah program codingan dari tag membuat judul:
+Ini adalah sebuah hasil dari texs Kodingan tag Mendeklarasikan CSS Internal<p>
+ Dan Ini Adalah program codingan dari tag Mendeklarasikan CSS Internal:
 
  ```html
 
-<!DOCTYPE html >
-<HTMl>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Dasar</title>
+</head>
+<body>
+
     <head>
-        <title>Membuat Judul</title>
-    <style>
-body {
-
-    color: red;
-}
-h1 {
-	color: #ff00b3;
-}
-p {
-	color: rgb(36, 85, 177)
-}
-
-    </style>
-    </head>
-    <body>
-<!-- judul paragraf pertama -->
-<h1><center>Biodata Faris Syahluthfi</center></h1>
 
 
-<!-- judul paragraf kedua -->
-<h2><center>My Profil</center></h2>
+        <title>CSS Dasar</title>
+        <style>
+        body {
+        font-family:'Open Sans', sans-serif;
+        }
+        header {
+        min-height: 100px;
+        border-bottom:5px solid #ef777d;
+        }
+        nav {
+            font-size: 20px;
+            text-align: center;
+            padding: 50px 25px ;
+        }
+        h1 {
+        font-size: 50px;
+        color: #0f9f3a;
+        text-align: center;
+        padding: 150px 200px;
+        }
+        h1 i {
+        color:#6d6d6a;
+        }
+        
+        </style>
+        </head>
 
+<header>
+    <h1><b>TUGAS PRATIKUM 2 MEMBUAT CSS DASAR</b></h1>
+</header>
+<nav>
+<a href="lab2_css_dasar.html">CSS Dasar</a>
+<a href="lab2_css_eksternal.html">CSS Eksternal</a>
+<a href="lab1_tag_dasar.html">HTML Dasar</a>
+</nav>
+<!-- CSS ID Selector -->
+<div id="intro">
+    <h1>FARIS SYAHLUTHFI</h1>
+<p>Saya sedang mengerjakan <b>PRATIKUM 2</b> mata kuliah <b><u>PEMROGRAMAN WEB</u></b> 
+    disini saya diberikan tugas yaitu untuk membuat <u>CSS DASAR</u></p>
+<!-- CSS Class Selector -->
+<a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
+</div>
 </body>
-    
-</HTMl>
+</html>
+
  ```
 
 
