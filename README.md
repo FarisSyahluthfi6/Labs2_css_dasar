@@ -283,72 +283,72 @@ Ini adalah sebuah hasil Program yang sudah saya buat<p>
 
  ```html
 
- <!DOCTYPE html >
-<HTMl>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Dasar</title>
+</head>
+<body>
     <head>
-        <title>Lab1Web__Faris</title>
-    <style>
-body {
 
-    color: red;
-}
-h1 {
-	color: #ff00b3;
-}
-p {
-	color: rgb(36, 85, 177)
-}
+        <!-- menyisipkan css eksternal -->
+<link rel="stylesheet" href="style_eksternal2.css" type="text/css">
 
-    </style>
-    </head>
-    <body>
-
-        <marquee bgcolor="cyan" width="1500">WELCOME TO MY WEB FARIS SYAHLUTHFI</marquee>
-
-    <!-- Ini adalah paragraf kesatu -->
-    <h1><center>Biodata Faris Syahluthfi</center></h1>
-        <p align=”justify,”>
-            <br><b>Nama: Faris Syahluthfi</b></br>
-            <br><b>Tempat: Jakarta</b></br>
-            <br><b>Tanggal Lahir: 06 April 2002</b></br>
-            <br><b>Alamat: Indramayu</b></br>
-            <br> 
-        </p>
+        <title>CSS Dasar</title>
+        <style>
+        body {
+        font-family:'Open Sans', sans-serif;
+        }
+        header {
+        min-height: 100px;
+        border-bottom:5px solid #ef777d;
+        }
+        nav {
+            font-size: 20px;
+            text-align: center;
+            padding: 50px 25px ;
+        }
+        h1 {
+        font-size: 50px;
+        color: #0f9f3a;
+        text-align: center;
+        padding: 150px 200px;
+        }
+        h1 i {
+        color:#6d6d6a;
+        }
         
-    <!-- Ini adalah paragraf kedua -->
-    <h2><center>My Profil</center></h2>
+        </style>
+        </head>
 
-       
-    <p align=left,”>
-            <br><center><b>Assalamualaikum...</b></center></br>
-            <br><b>Halo semuanya</b> perkenalkan nama saya <b>Faris Syahluthfi.</b>
-            Saya Mahasiswa <b><u>Universitas Pelita bangsa</u></b> prodi <i><b>Teknik Informatika.</b></i> </br>
-            <br>Alhamdulillah sekarang saya sudah kuliah <b><u>Semester 4</u></b> </br>
-            <br>Sekarang saya sedang belajar tentang <b>HTML</b> yang diajarkan oleh dosen saya yang bernama <b><i>Bapak Agung Nugroho, S.Kom., M.Kom.</i></i></b>
-            yang mengajar matakuliah <b><u>Pemrograman Web</u></b></p> <br>
 
-        </p>
+<header>
+<h1><b>TUGAS PRATIKUM 2 MEMBUAT CSS DASAR</b></h1>
+</header>
 
-        <!-- sub judul paragraf -->
-<h3>Menambahkan Gambar</h3>
-<!-- menambahkan gambar pada dokumen -->
-<p>
-    <img src="Foto_Faris.JPG" width="200" title="Foto Faris">
-    </p>
-
-<!-- menambahkan link navigasi -->
 <nav>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Membuat_Judul.html">Membuat judul</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Membuat_Paragraf.html">Membuat Paragraf</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Memformat_teks.html">Memformat teks</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Menyisipkan_Gambar.html">Meyisipkan gambar</a>
-    <a href="file:///E:/Tugas%20Kuliah/Tugas%20kuliah%20semester%204/Membuat%20WEB/Lab1_Web.html">Halaman Web Eksternal Google</a>
-    </nav>
-    <hr>
+<a href="Membuat_dokumen_HTML.html">MEMBUAT DOKUMEN HTML</a>
+<a href="deklarasi_CSS_internal.html">MENDEKLARASIKAN CSS INTERNAL</a>
+<a href="Menambahkan_Inline_CSS.html">MENAMBAHKAN INLINE CSS</a>
+<a href="Membuat_CSS_Eksternal.html">MEMBUAT CSS EKSTERNAL</a>
 
 
-    </body>
-    
-</HTMl>
+</nav>
+
+<!-- CSS ID Selector -->
+<div id="intro">
+<h1>FARIS SYAHLUTHFI</h1>
+
+<p style="text-align: center; font-size: 25px; color: #3a68be;">Saya sedang mengerjakan <b>PRATIKUM 2</b> mata kuliah <b><u>PEMROGRAMAN WEB</u></b> 
+    disini saya diberikan tugas yaitu untuk membuat <u>CSS DASAR</u>
+</p>
+
+<!-- CSS Class Selector -->
+<a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
+</div>
+</body>
+</html>
 
 ```
