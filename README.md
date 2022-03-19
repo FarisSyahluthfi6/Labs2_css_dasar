@@ -45,7 +45,7 @@ Ini adalah sebuah hasil dari texs Kodingan tag membuat dokumen HTML<p>
 ```
 
 ## 2. Mendeklarasikan CSS Internal
-![Deklarasi_css_internal](screenshot/Deklarasi_css_internall.PNG)
+![Deklarasi_css_internal](screenshot/Deklarasi_css_internal.PNG)
 
 Ini adalah sebuah hasil dari texs Kodingan tag Mendeklarasikan CSS Internal<p>
  Dan Ini Adalah program codingan dari tag Mendeklarasikan CSS Internal:
