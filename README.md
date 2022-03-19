@@ -9,53 +9,39 @@
 | Matkul= Pemrograman Web     |
 |=============================|
 
-## 1. Membuat Paragraf
-![Membuat_Paragraf](screenshot/Membuat_Paragraf.PNG)
+## 1. Membuat dokumen HTML
+![Membuat_dokumen_HTML](screenshot/Membuat_dokumen_HTML.PNG)
 
-Ini adalah sebuah hasil dari texs Kodingan tag membuat paragraf<p>
- Dan Ini Adalah program codingan dari tag membuat paragraf:
+Ini adalah sebuah hasil dari texs Kodingan tag membuat dokumen HTML<p>
+ Dan Ini Adalah program codingan dari tag membuat dokumen HTML:
 
 ```html
-<!DOCTYPE html >
-<HTMl>
-    <head>
-        <title>Membuat Paragraf</title>
-    <style>
-body {
-
-    color: red;
-}
-h1 {
-	color: #ff00b3;
-}
-p {
-	color: rgb(36, 85, 177)
-}
-
-    </style>
-    </head>
-    <body>
-<!-- Ini adalah paragraf kesatu -->
-<p align=”justify,”>
-    Nama: Faris Syahluthfi
-    Tempat: Jakarta
-    Tanggal Lahir: 06 April 2002
-    Alamat: Indramayu
-    </p>
-
-    <!-- Ini adalah paragraf kedua -->
-    <p align=left,”>
-        Assalamualaikum...
-        Halo semuanya perkenalkan nama saya Faris Syahluthfi. Saya Mahasiswa Universitas Pelita bangsa prodi Teknik Informatika.
-        Alhamdulillah sekarang saya sudah kuliah Semester 4
-        Sekarang saya sedang belajar tentang HTMLyang diajarkan oleh dosen saya yang bernama Bapak Agung Nugroho,S.Kom.,M.Kom.
-        yang mengajar matakuliah Pemrograman Web </p>
-
-
-
-    </body>
-    
-</HTMl>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Dasar</title>
+</head>
+<body>
+<header>
+    <h1><b>TUGAS PRATIKUM 2 MEMBUAT CSS DASAR</b></h1>
+</header>
+<nav>
+<a href="lab2_css_dasar.html">CSS Dasar</a>
+<a href="lab2_css_eksternal.html">CSS Eksternal</a>
+<a href="lab1_tag_dasar.html">HTML Dasar</a>
+</nav>
+<!-- CSS ID Selector -->
+<div id="intro">
+    <h1>FARIS SYAHLUTHFI</h1>
+<p>Saya sedang mengerjakan <b>PRATIKUM 2</b> mata kuliah <b><u>PEMROGRAMAN WEB</u></b> 
+    disini saya diberikan tugas yaitu untuk membuat <u>CSS DASAR</u></p>
+<!-- CSS Class Selector -->
+<a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
+</div>
+</body>
+</html>
 ```
 
 ## 2. Membuat Judul
