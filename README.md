@@ -15,6 +15,7 @@
 Ini adalah sebuah hasil dari texs Kodingan tag membuat dokumen HTML<p>
  Dan Ini Adalah program codingan dari tag membuat dokumen HTML:
 
+## Contoh Kode
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -49,6 +50,8 @@ Ini adalah sebuah hasil dari texs Kodingan tag membuat dokumen HTML<p>
 
 Ini adalah sebuah hasil dari texs Kodingan tag Mendeklarasikan CSS Internal<p>
  Dan Ini Adalah program codingan dari tag Mendeklarasikan CSS Internal:
+
+ ## Contoh Kode
 
  ```html
 
@@ -113,63 +116,73 @@ Ini adalah sebuah hasil dari texs Kodingan tag Mendeklarasikan CSS Internal<p>
  ```
 
 
-## 3. Memformat teks
-![Memformat_teks](screenshot/Memformat_Teks.PNG)
+## 3. Menambahkan Inline CSS
+![Menambahkan_inline_css](screenshot/Menambahkan_inline_css.PNG)
 
-Ini adalah Contoh dari Teks format seperti Menambahkan (Span) Untuk Warna Teks atau sebuah background
+Ini adalah sebuah hasil dari texs Kodingan tag Menambahkan Inline CSS<p>
+ Dan Ini Adalah program codingan dari tag Menambahkan Inline CSS:
+
 ## Contoh Kode
 ```Html
-<!DOCTYPE html >
-<HTMl>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Dasar</title>
+</head>
+<body>
+
     <head>
-        <title>Memformat teks</title>
-    <style>
-body {
 
-    color: red;
-}
-h1 {
-	color: #ff00b3;
-}
-p {
-	color: rgb(36, 85, 177)
-}
 
-    </style>
-    </head>
-    <body>
-
-        <marquee bgcolor="cyan" width="1500">WELCOME TO MY WEB FARIS SYAHLUTHFI</marquee>
-
-    <!-- Ini adalah paragraf kesatu -->
-    <h1><center>Biodata Faris Syahluthfi</center></h1>
-        <p align=”justify,”>
-            <br><b>Nama: Faris Syahluthfi</b></br>
-            <br><b>Tempat: Jakarta</b></br>
-            <br><b>Tanggal Lahir: 06 April 2002</b></br>
-            <br><b>Alamat: Indramayu</b></br>
-            <br> 
-        </p>
+        <title>CSS Dasar</title>
+        <style>
+        body {
+        font-family:'Open Sans', sans-serif;
+        }
+        header {
+        min-height: 100px;
+        border-bottom:5px solid #ef777d;
+        }
+        nav {
+            font-size: 20px;
+            text-align: center;
+            padding: 50px 25px ;
+        }
+        h1 {
+        font-size: 50px;
+        color: #0f9f3a;
+        text-align: center;
+        padding: 150px 200px;
+        }
+        h1 i {
+        color:#6d6d6a;
+        }
         
-    <!-- Ini adalah paragraf kedua -->
-    <h2><center>My Profil</center></h2>
-     </p>   
-    <p align=left,”>
-            <br><center><b>Assalamualaikum...</b></center></br>
-            <br><b>Halo semuanya</b> perkenalkan nama saya <b>Faris Syahluthfi.</b>
-            Saya Mahasiswa <b><u>Universitas Pelita bangsa</u></b> prodi <i><b>Teknik Informatika.</b></i> </br>
-            <br>Alhamdulillah sekarang saya sudah kuliah <b><u>Semester 4</u></b> </br>
-            <br>Sekarang saya sedang belajar tentang <b>HTML</b> yang diajarkan oleh dosen saya yang bernama <b><i>Bapak Agung Nugroho,S.Kom.,M.Kom.</i></i></b>
-            yang mengajar matakuliah <b><u>Pemrograman Web</u></b></p> <br>
+        </style>
+        </head>
 
-        </p>
-
-
-
-
-    </body>
+<header>
+    <h1><b>TUGAS PRATIKUM 2 MEMBUAT CSS DASAR</b></h1>
+</header>
+<nav>
+<a href="lab2_css_dasar.html">CSS Dasar</a>
+<a href="lab2_css_eksternal.html">CSS Eksternal</a>
+<a href="lab1_tag_dasar.html">HTML Dasar</a>
+</nav>
+<!-- CSS ID Selector -->
+<div id="intro">
+    <h1>FARIS SYAHLUTHFI</h1>
+    <p style="text-align: center; font-size: 25px; color: #3a68be;">Saya sedang mengerjakan <b>PRATIKUM 2</b> mata kuliah <b><u>PEMROGRAMAN WEB</u></b> 
+        disini saya diberikan tugas yaitu untuk membuat <u>CSS DASAR</u>
+    </p>
     
-</HTMl>
+<!-- CSS Class Selector -->
+<a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
+</div>
+</body>
+</html>
 
 ```
 
