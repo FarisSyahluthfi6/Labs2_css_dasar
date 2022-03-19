@@ -186,46 +186,41 @@ Ini adalah sebuah hasil dari texs Kodingan tag Menambahkan Inline CSS<p>
 
 ```
 
-## 4. Menyisipkan Gambar
-![Menyisipkan_Gambar](screenshot/Menyisipkan_Gambar.PNG)
+### 4. Membuat CSS Eksternal
 
-Ini adalah sebuah hasil dari texs Kodingan tag menyisipkan gambar<p>
- Dan Ini Adalah program codingan dari tag menyisipkan gambar:
+Membuat file baru dengan nama style_eksternal.css. ini adalah kodingan dari file style_eksternal.css:<p>
 
- ```html
+ ```css
 
-<!DOCTYPE html >
-<HTMl>
-    <head>
-        <title>Menyisipkan gambar</title>
-    <style>
-body {
-
-    color: red;
-}
-h1 {
-	color: #ff00b3;
-}
-p {
-	color: rgb(36, 85, 177)
-}
-
-    </style>
-    </head>
-    <body>
-
-<!-- sub judul paragraf -->
-<h1>Menambahkan Gambar</h1>
-<!-- menambahkan gambar pada dokumen -->
-<p>
-    <img src="Farisss.jpg" alt="Foto_Faris_Syahluthfi" style="width:300px;height:200px;" align="middle">
- </p>
-
-    </body>
-    
-</HTMl>
+Nav {
+    background: #d35013;
+    color:#fff;
+    padding: 10px;
+    }
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    padding:10px 20px;
+    }
+    nav .active,
+    nav a:hover {
+    background: #ca5c12;
+    }
 
 ```
+Kemudian saya menambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagian <head> <p>
+```html
+<head>
+<!-- menyisipkan css eksternal -->
+<link rel="stylesheet" href="style_eksternal.css" type="text/css">
+</head>
+
+```
+![Membuat_css_eksternal](screenshot/Membuat_css_eksternal.PNG)
+
+Ini adalah sebuah hasil dari texs Kodingan full tag  Membuat CSS Eksternal<p>
+ 
+
 
 ## 5. Menambahkan Hyperlink
 ![Menambahkan_Hyperlink](screenshot/Menambahkan_Hyperlink.PNG)
